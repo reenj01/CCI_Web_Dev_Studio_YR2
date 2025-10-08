@@ -35,3 +35,9 @@ Note: All changes have comments above them. I mostly focused on the overall desi
 3. Increased font size from 17px to 19px, as reducing word count led to more available space.
 4. Made the entire dotted box larger, reducing the need for unnecessary white space outside the box.
 5. Changed the color of the buttons and highlighted color of the text because the previous red was too bright in consideration with the off white background and red-brown text color. 
+
+# Reflection
+
+Overall, before, my first version had very bold and oldly contrasting colors of bright red and bright blue, which may not be the most accesible and comfortable user experience to some users. Additionally, the pure white background may cause strain on the eyes of some. Similarly, the center aligned text may be awkward for people to read left and right.
+
+After reading the dsylexia design guide and watching the youtube video, I changed the background color and text color to be less harsh on the eyes for people who may be sensitive. I also increased the text size and changed from paragraph to bullet points, making it easier to read the text and get the main points. Additionally, I made the main section larger, removing excess unnecessary space, and added alt text to all three of the images, allowing people who rely on alt text to still get an understanding of the webpage. Furthermore, I changed the text align from center to left, making it easier and more comfortable to read the text. Lastly, I increased the width of the text container, making the text more spread out left to right, reducing the awkwardness of having the feeling of text being too short to read from left to right.
