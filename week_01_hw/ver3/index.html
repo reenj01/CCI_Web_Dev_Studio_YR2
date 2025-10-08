@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Schrodinger's Cat</h1>
+    <div class="row">
+      <div class="left">
+      <!-- Changed the order of the text, and turned the paragraph into bullet points, making it easier to read -->
+      <a href="https://library.josh8.com/physics/John%20Gribbin%20-%20In%20Search%20of%20Schrodinger's%20Cat-Bantam%20Dell%20Pub%20Group%20(1999).pdf"><p class="src">"In Search of Schrodinger's Cat" by John Gribbon pg 2-3</p></a>
+      <ul>
+        <li>
+          experiment in a closed box which contains a live cat and a phial of poison
+        </li>
+        <li>
+          if radioactive decay occurs, the poison container breaks open and the cat dies
+        </li>
+        <li>
+          there is a 50-50 chance that the cat will be killed
+        </li>
+        <li>
+          but without looking inside the box, we cannot say whether the cat is dead or alive
+        </li>
+      </ul>
+      <p class="emp">The atomic decay has neither happened nor not happened, the cat has neither been killed nor not killed, until we look inside the box to see what has happened."</p>
+      </div>
+      <div class="right">
+        <img id="img" src="../imgs/no-bg-schrodinger.png" alt="hand drawn image showing the experimental setup of the Schrodinger's cat">
+        <p class="changeText">Is your cat dead or alive?</p>
+        <button onclick="openBox()">Click to open the box!</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
